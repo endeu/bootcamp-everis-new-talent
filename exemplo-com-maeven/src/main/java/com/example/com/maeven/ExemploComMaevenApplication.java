@@ -1,4 +1,4 @@
-package com.example.exemplo.com.maeven;
+package com.example.com.maeven;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
