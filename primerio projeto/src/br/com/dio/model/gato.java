@@ -2,17 +2,17 @@ package br.com.dio.model;
 
 import java.util.Objects;
 
-public class Gato {
+public class gato {
     private String nome;
     private String cor;
     private Integer idade;
 
     //constructor vazio
-    public Gato() {
+    public gato() {
     }
 
     //constructor atributos
-    public Gato(String nome, String cor, Integer idade) {
+    public gato(String nome, String cor, Integer idade) {
         this.nome = nome;
         this.cor = cor;
         this.idade = idade;
@@ -50,7 +50,7 @@ public class Gato {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Gato gato = (Gato) o;
+        gato gato = (gato) o;
         return Objects.equals(nome, gato.nome) && Objects.equals(cor, gato.cor) && Objects.equals(idade, gato.idade);
     }
 
